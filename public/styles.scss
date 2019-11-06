@@ -1,0 +1,27 @@
+@import "./styles/01variables";
+@import "./styles/02fonts";
+@import "./styles/03base";
+
+
+tr:nth-child(2n){
+    background-color: lightgrey;
+}
+
+td {
+    width: 50px;
+    height: 50px;
+    border: solid 1px $primary-color;
+    text-align: center;
+}
+td:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+
+td:nth-child(1){
+    background-color: white;
+    border: solid 2px $primary-color;
+}
+td:hover:nth-child(1){
+    cursor: auto;
+}
